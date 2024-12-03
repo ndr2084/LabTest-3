@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Loan Calculator</title>
+<link rel="StyleSheet"
+	href="res/mc.css" type="text/css"
+	title="cse4413" media="screen, print" />
+</head>
+</head>
+<body>
+
+	<header> Calculator by 4413-2022 </header>
+	<nav>
+		<ul>
+			<li><a href="#"> Home </a></li>
+			<li><a href="#"> About</a></li>
+		</ul>
+	</nav>
+	<section>
+		<article>
+		  <fieldset>
+		    <legend> Calculator </legend>
+			<form action="Osap" method="POST" class="osapForm">	
+				<label for="principle"> Principal <BR /> <small>(total
+						loan amount after studies)</small></label> 
+			    <input type="number" step="0.01"
+					id="principle" name="principle"></input>
+				<label for="interest">Annual Interest Rate</label>
+				<input
+					type="number" step="0.01" id="interest" name="interest"></input>
+					
+			    <label
+					for="period">Payment Period <BR /> <small>(total
+						number of months)</small></label> 
+				<input type="number" id="period" name="period"></input>
+
+				<button type="submit"  name="out" value="html">Submit</button> 
+			</form>
+			</fieldset>
+		</article>
+		<aside>
+			<figure>
+				<img
+					src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg"
+					height="100px" width="100px" />
+				<figcaption>York University</figcaption>
+			</figure>
+		</aside>
+	</section>
+	<footer> Copyright EECS 4413Z- All rights reserved</footer>
+
+
+</body>
+</html>
